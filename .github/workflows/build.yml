@@ -1,0 +1,34 @@
+name: Build/release
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  release:
+    permissions: write-all
+    runs-on: ${{ matrix.os }}
+    strategy:
+      matrix:
+        os: [windows-latest]
+    steps:
+      - name: Check out Git repository
+        uses: actions/checkout@v3
+      - name: Install Node.js, NPM and Yarn
+        uses: actions/setup-node@v3
+        with:
+          node-version: 18
+
+      - name: Install
+        run: npm install
+
+      - run: npm install --global pkg
+      - name: Build
+        run: pkg index.js --output lite-bot --targets win
+      - name: Release
+        uses: softprops/action-gh-release@v1
+        with:
+          files: lite-bot-win.exe
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
