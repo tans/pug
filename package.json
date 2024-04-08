@@ -8,8 +8,9 @@
   },
   "author": "",
   "dependencies": {
-    "wechaty-puppet-xp": "1.13.12",
-    "wechaty":"^1.20.2"
+    "node-fetch": "^2.7.0",
+    "wechaty": "^1.20.2",
+    "wechaty-puppet-xp": "1.13.12"
   },
   "license": "ISC"
 }
