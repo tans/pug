@@ -20,6 +20,10 @@
 
 https://pug.minapp.xin
 
+## 赞助支持
+
+https://wechatsdk.com/ 提供强大的个人微信接口
+
 ## 联系作者
 
 微信 tianshe00
