@@ -13,8 +13,8 @@
 2. 群积分(开发中)
 3. 群收藏
 4. 群接口(开发中)
-
-<img src="./screenshot/demo.webp" style="max-width:480px">
+ 
+<img src="http://image.minapp.xin/macupload/LxvyNt.png" width=420>
 
 ## 更多使用技巧
 
