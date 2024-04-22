@@ -11,8 +11,8 @@
 
 1. 群统计 - 发言统计，邀请统计
 2. 群积分(开发中)
-3. 群表格(开发中)
-4. 开放接口(开发中)
+3. 群收藏
+4. 群接口(开发中)
 
 <img src="./screenshot/demo.webp" style="max-width:480px">
 
@@ -22,7 +22,7 @@ https://pug.minapp.xin
 
 ## 赞助支持
 
-https://wechatsdk.com/ 提供强大的个人微信接口
+[wechatsdk](https://wechatsdk.com/) 提供强大稳定的个人微信接口
 
 ## 联系作者
 
