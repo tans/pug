@@ -24,6 +24,12 @@ https://minapp.xin/pug
 
 [wechatsdk](https://wechatsdk.com/) 提供强大稳定的个人微信接口
 
-## 联系作者
+ 
 
-微信 tianshe00
+## 注意事项
+
+本项目为客户端实现，使用还需要服务器端实现。
+
+本项目仅供学习参考！
+
+微信 tianshe00 （内测群交流）
