@@ -18,7 +18,7 @@
 
 ## 更多使用技巧
 
-https://pug.minapp.xin
+https://minapp.xin/pug
 
 ## 赞助支持
 
