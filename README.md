@@ -12,7 +12,7 @@
 1. 群统计 - 发言统计，邀请统计
 2. 群积分(开发中)
 3. 群收藏
-4. 群接口(开发中)
+4. 群接口 免开发使用，可用于对接简集云等连接器。
  
 <img src="http://image.minapp.xin/macupload/LxvyNt.png" width=420>
 
