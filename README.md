@@ -32,4 +32,7 @@ https://minapp.xin/pug
 
 本项目仅供学习参考！
 
-微信 tianshe00 （内测群交流）
+微信 tianshe00
+
+
+![screenshot/groupqr.jpeg](screenshot/groupqr.jpeg)
