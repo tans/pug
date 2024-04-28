@@ -1,9 +1,9 @@
 name: Build/release
 
 on:
-  push:
-    tags:
-      - "v*.*.*"
+  # push:
+  #   tags:
+  #     - "v*.*.*"
 
 jobs:
   release:
