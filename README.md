@@ -13,7 +13,7 @@
 2. 群积分(开发中)
 3. 群收藏
 4. 群接口 免开发使用，可用于对接简集云等连接器。
- 
+
 <img src="http://image.minapp.xin/macupload/LxvyNt.png" width=420>
 
 ## 更多使用技巧
@@ -24,7 +24,11 @@ https://minapp.xin/pug
 
 [wechatsdk](https://wechatsdk.com/) 提供强大稳定的个人微信接口
 
- 
+## Roadmap
+
+1. 信息聚合
+2. 推送管理
+3. 小游戏
 
 ## 注意事项
 
@@ -33,6 +37,5 @@ https://minapp.xin/pug
 本项目仅供学习参考！
 
 微信 tianshe00
-
 
 ![screenshot/groupqr.jpeg](screenshot/groupqr.jpeg)
