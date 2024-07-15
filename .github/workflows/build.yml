@@ -21,7 +21,7 @@ jobs:
           node-version: 18
 
       - name: Install
-        run: npm install
+        run: npm ci
 
       - name: Release
         uses: softprops/action-gh-release@v2
@@ -32,6 +32,5 @@ jobs:
         with:
           path: |
             lib
-            node_modules
             index.js
             package.json
