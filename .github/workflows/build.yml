@@ -17,16 +17,19 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: 18
-      - run: npm install
+      - name: npm-install
+        run: npm install
 
       - name: Release
         uses: softprops/action-gh-release@v2
-        if: startsWith(github.ref, 'refs/tags/')
+        # if: startsWith(github.ref, 'refs/tags/')
 
       - name: upload
         uses: actions/upload-artifact@v3
+        needs: npm-install
         with:
           milliseconds: 1000
+          name: my-artifacts
           path: |
             lib
             index.js
