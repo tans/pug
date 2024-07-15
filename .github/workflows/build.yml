@@ -19,9 +19,7 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: 18
-
-      - name: Install
-        run: npm ci
+        run: npm i
 
       - name: Release
         uses: softprops/action-gh-release@v2
