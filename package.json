@@ -1,6 +1,6 @@
 {
   "name": "pugai-bot-lite",
-  "version": "0.0.1",
+  "version": "2.0.1",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -10,7 +10,7 @@
   "dependencies": {
     "node-fetch": "^2.7.0",
     "wechaty": "^1.20.2",
-    "wechaty-puppet-xp": "1.13.12"
+    "wechaty-puppet-xp": "2.1.1"
   },
   "license": "ISC"
 }

@@ -23,11 +23,7 @@ jobs:
       - name: Install
         run: npm install
 
-      - run: npm install --global pkg
-      - name: Build
-        run: pkg index.js --output lite-bot --targets win
       - name: Release
         uses: softprops/action-gh-release@v2
         if: startsWith(github.ref, 'refs/tags/')
-        with:
-          files: lite-bot.exe
+        
