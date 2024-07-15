@@ -18,6 +18,7 @@ jobs:
         with:
           node-version: 18
       - name: npm-install
+        id: npm-install
         run: npm install
 
       - name: Release
